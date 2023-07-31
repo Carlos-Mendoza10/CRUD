@@ -1,0 +1,58 @@
+.editproduct-no{
+  width: 0%;
+  overflow: hidden;
+}
+
+.editproduct {
+  width: 40%;
+  margin-top: 3%;
+  margin-left: 3%;
+  &__form {
+    background-color:#eef0f1;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    form{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding: 3%;
+    }
+    label{
+      font-weight:bold;
+    }
+    input{
+      padding: 10px;
+      border-radius: 10px;
+      border-width: 2px;
+      border-style:groove;
+      border-color: #d7dadb;
+      margin-bottom: 4%;
+    }
+  }
+
+  &__title {
+    h1{
+      font-size: 25px;
+    }
+  }
+}
+
+.button{
+  display: flex;
+  justify-content: right;
+}
+.cancel{
+  color: white;
+  background-color: #606672;
+  height: 5%;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.update{
+  color: white;
+  background-color: #4ab85f;
+  height: 5%;
+  font-weight: 600;
+  margin-right: 10px;
+}
